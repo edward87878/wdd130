@@ -16,3 +16,10 @@ Copy to Clipboard
   font-size: 2em;
 }
 
+HTML Inline elements ..
+    span
+    a
+    label
+    button
+    input
+    cite 
