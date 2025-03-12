@@ -1,0 +1,33 @@
+wdd130 notes
+
+what is html?
+- tags, opening and closing tags
+- hypertext markup language
+- defines the structure of a webpages words and images
+- <!DOCTYPE html> = html5
+- 
+
+Body
+ Header (menu buttons)
+  Nav (holds menu elements "a" elements) a href="index.html">Home</a>
+ Main <img src="voyager.jpg" alt="docking station"> does not have open and closing tags since no addl content
+ Footer
+
+good practice to leave things lower case (all elements, not content)
+
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>There She Blows</title>
+ </head>
+ <body>
+ </body>
+</html>
+
+Squoosh - shrinks images for you to specific sizes, like paint, but on the web for web loading
+
+Images should never be more than 100 kB in size. Should be resized downward and quality reduced if they are bigger than that
+
+https://edward87878.github.io/wdd130

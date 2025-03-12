@@ -1,0 +1,18 @@
+To ensure consistent <h1> rendering, use the following style rule:
+
+css
+Copy to Clipboard
+h1 {
+  margin-block: 0.67em;
+  font-size: 2em;
+}
+
+Alternatively, to avoid overwriting other style rules that target <h1> you can use :where(), which has zero specificity:
+
+css
+Copy to Clipboard
+:where(h1) {
+  margin-block: 0.67em;
+  font-size: 2em;
+}
+
