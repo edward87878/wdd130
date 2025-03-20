@@ -1,21 +1,25 @@
 /* Commenting as part of an assignment. I really like VS, since I don't necessarily
 have to remember how to comment when using this program, since there are so
 many variants. */
+:root {
+  --color-whitesmoke: whitesmoke;
+  --color-darkblue: darkblue;
+  --tenpx: 10px;
+}
 
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(color-darkblue);
+    padding: var(tenpx);
 }
 
 nav a {
-    color: white;
     display: block;
-    padding: 10px;
-    color: whitesmoke;
+    padding: var(tenpx);
+    color: var(--color-whitesmoke);
 }
 
 h1 {
-    color: darkblue;
+    color: var(--color-darkblue);
 }
 
 p {
@@ -40,7 +44,7 @@ aside {
     border: gray solid 2px;
     margin: 10px;
     background-color: navy;
-    color: whitesmoke;
+    color: var(--color-whitesmoke);
     text-align: center;
 }
 
