@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --primary-color: whitesmoke;
+    --secondary-color: #333A56;
+    --accent1-color: #42bfdd;
+    --accent2-color: #ccf5ac;
+    --heading-font: "Winky Sans", sans-serif;
+    --text-font: "Open Sans", sans-serif;
+}
+
+header {
+    font-size: 1.8vw;
+}
+
+header a {
+    padding-right: 1%;
+}
+
+p {
+    font-family: var(--text-font);
+    color: var(--secondary-color)
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+div.hero {
+    position: relative;
+}
+
+img.load {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 6vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+article {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    background-color: rgba(0, 0, 128, 0.5);
+    border: 1px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+article p {
+    color: var(--primary-color);
+    width: 50%;
+    height: auto;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+    font-size: 2vw;
+    color: whitesmoke;
+    text-align: center;
+}
+
+article img {
+    width: 45%;
+    float: right;
+}
+
+section h2 {
+    font-size: 3vw;
+    color: navy;
+    text-align: center;
+    font-family: var(--heading-font)
+}
+
+section img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1%;
+}
+
+section p {
+    font-size: 2vw;
+    color: var(--secondary-color);
+    padding-left: 1%;
+}
+
+nav.sociallinks {
+    text-decoration: none;
+}
+
+nav.sociallinks img {
+    width: 5%;
+}

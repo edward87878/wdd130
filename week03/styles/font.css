@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Rock Salt';
+    src: url('../fonts/RockSalt.woff2') format('woff2'),
+        url('../fonts/RockSalt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+h1 {
+    font-family: 'Rock Salt', 'Bradley Hand', cursive;
+}

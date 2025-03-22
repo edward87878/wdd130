@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #505033;
+    --secondary-color: #264969;
+    --accent1-color: #cfcfb4;
+    --accent2-color: #b4cde4;
+    --heading-font: georgia;
+    --text-font: roboto;
+}
