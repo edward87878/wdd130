@@ -139,7 +139,7 @@ section p {
 
 section.history {
     display: grid;
-    grid-column: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 section.history h2 {
