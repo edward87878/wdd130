@@ -35,7 +35,7 @@ legend {
 select, textarea, input[type="email"], input[type="text"] {
     margin-bottom: 5%;
     position: relative;
-    left: 10%;
+    /* left: 10%; */
     width: 70%;
     font-family: arial;
     color: #100c08;
@@ -85,14 +85,14 @@ footer {
 
 .column1 {
     grid-template-columns: 3fr 1fr;
-    margin: 2%;
+    margin: 5%;
 }
 
 .column2 {
     grid-template-columns: 1fr 2fr;
-    margin: 2%;
+    margin: 5%;
 }
 
 .textbox {
-    margin: 2%;
+    margin: 5%;
 }
