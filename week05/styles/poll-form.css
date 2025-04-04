@@ -47,13 +47,10 @@ label {
     color: #100c08;
 }
 
-/* input[type="checkbox"] {
-    margin-bottom: 5%;
-    position: relative;
-    left: 10%;
-    font-family: 'Times New Roman', Times, serif;
-    color: #100c08;
-} */
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
 
 input[type="text"], input[type="email"], select {
     height: 25px;
