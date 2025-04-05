@@ -187,3 +187,75 @@ nav.sociallinks p {
 nav.sociallinks img {
     width: 30%;
 }
+
+.company_info {
+    margin-bottom:10%;
+}
+#pairing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* #address {
+    align-self: center;
+} */
+
+#leadership {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.leaders img{
+    width: 100%;
+}
+
+#custinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 2%;
+    margin-bottom: 5%;
+    grid-gap: 10px;
+}
+
+#custinfo input {
+    width: 300px;
+}
+
+#subscribe input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+#subscribe p{
+    float:right;
+    font-family: arial;
+}
+
+legend {
+    font-size: 1.2em;
+}
+
+.feedback {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* padding: 2%; */
+}
+
+#comments textarea {
+    width: 70%;
+}
+
+button {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    background-color: blue;
+    color: whitesmoke;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+}

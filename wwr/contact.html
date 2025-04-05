@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Rafting Contact Page</title>
+    <meta name="description" content="Whitewater Rafting Contacts">
+    <meta name="author" content="Kevin Shirley keshirley@gmail.com">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo-box">
+            <img src="images/logo.jpg" alt="Company Logo">
+        </div>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="company_info">
+            <h2>Company Information</h2>
+            <div id="pairing">
+            <div id="address">
+            <p><b>Whitewater Rafting Co</b> <br> 
+                1000 Collins Lane <br>
+                Salt Lake City, UT 84115</p>
+            <p>Main Office: (801) 555-2683</p>
+            <p>Sales: <a href="mailto:sales@whitewaterrafting.com">sales@whitewaterrafting.com</a></p>
+            </div>
+            <div id="gmap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d215.94024675756225!2d31.089280263612277!3d30.00689443982804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1segyptian%20pyramids!5e0!3m2!1sen!2sus!4v1743804681654!5m2!1sen!2sus" width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+        </div>
+        <div class="employees">
+            <h2>Our Leadership Team</h2>
+            <div id="leadership">
+            <figure class="leaders">
+                <img src="images/bob.webp" alt="Bob">
+                <figcaption>Bob Mehrenstein - VP of Sales</figcaption>
+            </figure>
+            <figure class="leaders">
+                <img src="images/tom.webp" alt="Tom">
+                <figcaption>Tom Hollock - CEO</figcaption>
+            </figure>
+            <figure class="leaders">
+                <img src="images/sally.webp" alt="Sally">
+                <figcaption>Sally Gorenger - VP of Marketing</figcaption>
+            </figure>
+            </div>
+        </div>
+        <div class="comments">
+            <h2>Contact Us</h2>
+            <form>
+                <fieldset id="custinfo">
+                    <legend>Customer information</legend>
+                    <div class="fname">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
+                    <div class="custemail">
+                        <label for="custemail">Email:</label>
+                        <input type="email" id="custemail" name="custemail">
+                    </div>
+                    <div class="lname">
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                    <div id="subscribe">
+                        <input type="checkbox" id="check">
+                        <label for="check">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <Legend>Feedback</legend>
+                    <div class="feedback">
+                        <div id="purpose">
+                        <h3>Purpose:</h3>
+                            <div class="radio">
+                                <label for="gi">General Inquiry</label>
+                                <input type="radio" id="gi" name="radiobutton">
+                            </div>
+                            <div class="radio">
+                                <label for="rq">Reservation Question</label>
+                                <input type="radio" id="rq" name="radiobutton">
+                            </div>
+                            <div class="radio">
+                                <label for="ws">Website Suggestion</label>
+                                <input type="radio" id="ws" name="radiobutton">
+                            </div>
+                        </div>
+                        <div id="comments">
+                            <h3>Comments:</h3>
+                            <textarea rows="5"></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+                <Button class="submit">Submit feedback</Button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <nav class="sociallinks">
+            <p>&copy; 2025 | Whitewater Rafting Co | Kevin Shirley
+            <a href="images/contactpagewf.png">Wireframe</a></p>
+
+            <div>
+                <a href="https://www.facebook.com/"><img src="images/facebook.webp" alt="Facebook"></a>
+                <a href="https://www.instagram.com/"><img src="images/instagram.webp" alt="Instagram"></a>
+                <a href="https://x.com/"><img src="images/x.webp" alt="X (Twitter)"></a>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>
