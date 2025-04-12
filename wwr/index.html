@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whitewater Rafting About Us</title>
-    <meta name="description" content="Whitewater Rafting About us and Contacts">
+    <title>Whitewater Rafting Home Page</title>
+    <meta name="description" content="Whitewater Rafting Home Page">
     <meta name="author" content="Kevin Shirley keshirley@gmail.com">
     <link rel="stylesheet" href="styles/rafting.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,23 +33,33 @@
 
             <article>
 
-                <img class='banner' src="images/happy.webp" alt="Triumph!">
-                <h2>Mission Statement</h2>
-                <p>At Whitewater Rafting Co, our mission is to deliver unforgettable whitewater rafting adventures that combine excitement, safety, and a deep respect for nature. We strive to provide world-class river experiences for adventurers of all skill levels, led by expert guides and supported by a passionate team committed to environmental stewardship, customer service, and creating lifelong memories on the water.</p>
+                <h2 id="introh2">Where the River Calls, Adventure Answers!</h2>
+                <p id="introp">Adventure awaits! Join us, the brave, the valiant, and the curious on the adventure of a lifetime</p>
 
             </article>
         </div>
-        
-        <section class="history">
-            <h2>Our History</h2>
-            <p>Founded in 1987 by a band of thrill-seeking adventurers—a ranger with a love for rapids, a rogue avoiding walking, a barbarian who thought the river was a dragon, and a wizard testing waterproof spells—our company began as a quest to recover a legendary +1 Paddle of Buoyancy. What started as a chaotic float down a</p> 
 
-            <img src="images/logo.jpg" alt="Company Logo">
-            
-            <p>wild river turned into a lifelong passion for guiding others through the rapids with courage, laughter, and the occasional bard song. Today, Whitewater Rafting Co proudly carries on that tradition, offering unforgettable whitewater adventures for everyone from first-level explorers to seasoned heroes—no saving throw required.</p>
+        <section class="groups">
+            <figure class="groups-item">
+                <img src="images/kids.webp" alt="Kids">
+                <figcaption>Safe for Kids</figcaption>
+            </figure>
+            <figure class="groups-item">
+                <img src="images/churchgroups.webp" alt="Church Groups">
+                <figcaption>Great for Church Groups</figcaption>
+            </figure>
+            <figure class="groups-item">
+                <img src="images/family.webp" alt="Family">
+                <figcaption>An Adventure for the whole Family</figcaption>
+            </figure>
+            <figure class="groups-item">
+                <img src="images/envy.webp" alt="Envy">
+                <figcaption>Be the envy of those who miss out</figcaption>
+            </figure>
         </section>
+
         <section class="adventure">
-            <h2>Adventure Awaits You!</h2>
+            <h2>Choose your Adventure!</h2>
             
             <a href="trips.html">
                 <figure>
@@ -85,7 +95,28 @@
                 </figure>
             </a>
         </section>
- 
+
+        <div class="comments">
+            <h2>Subscribe to our newsletter</h2>
+            <form>
+                <fieldset id="custinfo">
+                    <legend>Subscribe</legend>
+                    <div class="fname">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
+                    <div class="custemail">
+                        <label for="custemail">Email:</label>
+                        <input type="email" id="custemail" name="custemail">
+                    </div>
+                    <div class="lname">
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                </fieldset>
+                <button type="submit" class="submit">Subscribe</button>
+            </form>
+
     </main>
     <footer>
         <nav class="sociallinks">

@@ -58,6 +58,7 @@ body {
 
 div.hero {
     position: relative;
+    width: 100%;
 }
 
 img.load {
@@ -79,17 +80,21 @@ img.load {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-article {
-    position: absolute;
-    top: 20%;
-    left: 0;
-    background-color: rgba(0, 0, 128, 0.5);
-    border: 1px solid black;
+.contacts h1 {
+    font-size: 4vw;
+    color: navy;
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: 6vw;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 1px solid white;
 }
 
-article h2 {
-    color: var(--primary-color);
-    width: 50%;
+.contacts p{
+    color: var(--secondary-color);
+    width: 100%;
     height: auto;
     margin-left: 1%;
     margin-top: 1%;
@@ -99,9 +104,43 @@ article h2 {
     text-align: center;
 }
 
+.contacts h2 {
+    font-size: 2.5vw;
+    color: navy;
+    font-family: var(--heading-font);
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+}
+
+article {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 99.8%;
+    background-color: rgba(0, 0, 128, 0.5);
+    border: 1px solid black;
+}
+
+article h2 {
+    color: var(--primary-color);
+    width: 100%;
+    height: auto;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+    font-size: 2vw;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#introh2 {
+    font-size: 4vw;  
+}
+
 article p {
     color: var(--primary-color);
-    width: 50%;
+    width: 100%;
     height: auto;
     margin-left: 1%;
     margin-top: 1%;
@@ -196,11 +235,7 @@ nav.sociallinks img {
     grid-template-columns: 1fr 1fr;
 }
 
-/* #address {
-    align-self: center;
-} */
-
-#leadership {
+.leadership {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -242,7 +277,7 @@ legend {
     /* padding: 2%; */
 }
 
-#comments textarea {
+.comments textarea {
     width: 70%;
 }
 
@@ -258,4 +293,46 @@ button {
 button:hover {
     background-color: green;
     color: white;
+}
+
+section.groups {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1%;
+    padding: 1%;
+}
+
+figure.groups-item {
+    padding: 1%;
+    text-align: center;
+    font-size: 2vw;
+    color: var(--secondary-color);
+}
+
+figure.groups-item img {
+    width: 100%;
+}
+
+table {
+    margin-top:4%;
+}
+
+tr, td, th {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+th {
+    background-color: rgb(51, 51, 121);
+    color: whitesmoke;
+}
+
+td#blank {
+    border: 1px solid white;
+}
+
+.employees h2{
+    color: navy;
+    font-size: 3vw;
 }
